@@ -2,7 +2,7 @@ type: pkg
 
 project:
   name: simple-websocket-server-cpp
-  version: 1.0.0
+  version: 1.0.3
   description: Wio package for C++ Simple-WebSocket-Server
   homepage: "https://github.com/waterloop/Simple-WebSocket-Server"
   LICENSE: MIT
@@ -12,8 +12,9 @@ project:
   - websockets
   - server
   - c++
+  ignore_files: [examples, tests, build]
   compile_options:
-    wio_version: 0.6.1
+    wio_version: 0.6.2
     header_only: true
     default_target: example-ws
     standard: C++11
