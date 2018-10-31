@@ -11,7 +11,7 @@ else()
     add_compile_options(/W1)
 endif()
 
-add_library(simple-websocket-server INTERFACE)
+add_library(simple-websocket-server SHARED)
 
 target_include_directories(simple-websocket-server INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
 

@@ -20,3 +20,8 @@ wss_examples
 crypto_test
 io_test
 parse_test
+
+# wio package
+.wio
+.idea/
+
